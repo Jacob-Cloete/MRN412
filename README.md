@@ -1,2 +1,2 @@
 # MRN412
-Fault Classification of Analog Filter in Oscillation 
+Parametric Fault Classification of an Analog Filter in Oscillation 
