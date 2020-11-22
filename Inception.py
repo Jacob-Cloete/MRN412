@@ -9,6 +9,7 @@ from keras.layers import Activation
 from keras.layers import GlobalAveragePooling2D 
 from keras.utils import plot_model
 
+
 x_train = time_series[::3]
 y_train = Class[::3]
 
