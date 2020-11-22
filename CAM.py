@@ -10,7 +10,6 @@ softmax = get_softmax(([x_test[:], 1]))[0]
 softmax_weight = model.get_weights()[-2]
 CAM = np.dot(last_conv, softmax_weight)
 
-
 # pp = PdfPages('CAM.pdf')
 for k in np.arange(0,len(x_test),25):
     CAM = (CAM - CAM.min(axis=1, keepdims=True)) / (CAM.max(axis=1, keepdims=True) - CAM.min(axis=1, keepdims=True))
