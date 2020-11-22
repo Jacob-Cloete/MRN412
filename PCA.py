@@ -7,7 +7,6 @@ pca = skdecomp.PCA(n_components=2)
 
 X = np.vstack([X1])
 index = np.hstack([np.ones(X1.shape[0])*0])
-
 Y = pca.fit_transform(X)
 
 print(index.shape)
