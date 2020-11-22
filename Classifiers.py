@@ -27,8 +27,7 @@ classifiers = [
     LDA(),
     QDA()]
 
-datasets = [[Y,Class]]
-
+datasets = [[Y,Class]
 i = 1
 # iterate over datasets
 for ds in datasets:
