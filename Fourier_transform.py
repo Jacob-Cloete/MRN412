@@ -7,7 +7,6 @@ fourier = list(0 for i in range(0,200))
 for j in range(200):
     data_no = dataframes[j]
     data = data_no.iloc[20000:,:]
-
     data1 = []
     for i in range(len(data.iloc[:,1])):
         data1.append(data.iloc[i,1])
