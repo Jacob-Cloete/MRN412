@@ -7,6 +7,7 @@ import pandas as pd
 
 np.random.seed(813306)
  
+ 
 def build_resnet(input_shape, n_feature_maps, nb_classes):
     print ('build conv_x')
     x = keras.layers.Input(shape=(input_shape))
