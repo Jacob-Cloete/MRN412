@@ -67,5 +67,4 @@ df = pd.DataFrame(harmonics, columns =['label','Resistance',
                                        'Harm_5_Amplitude_dB',
                                       ], dtype = float) 
 del df['Resistance']
-
 print(df)
