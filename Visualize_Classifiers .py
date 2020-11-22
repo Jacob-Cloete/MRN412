@@ -22,5 +22,4 @@ the_table = plt.table(cellText=[[x] for x in Faults], bbox = [1.2, 0.1, 0.1, 0.8
 the_table.auto_set_font_size(False)
 the_table.set_fontsize(14)
 the_table.scale(1.7, 1.7)
-
 plt.show()
