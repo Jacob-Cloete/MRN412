@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-np.random.seed(813306)
   
 nb_epochs = 2000
 
