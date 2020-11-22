@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
   
 nb_epochs = 2000
-
 # = np.array(pd.DataFrame(time_series[:3]))
 # = np.array(pd.DataFrame(Class[::3]))
 
